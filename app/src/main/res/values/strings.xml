@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Blog</string>
+    <string name="disp_text">Welcome to MyBlog where you can express your ideas digitally</string>
+    <string name="start_text">My Blog</string>
+    <string name="btn_text">ENTER</string>
+    <string name="btn_log">LOGIN</string>
+    <string name="btn_reg">NEW USER?REGISTER</string>
+
+
+</resources>

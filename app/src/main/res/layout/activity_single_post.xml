@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context="com.example.sreyas20.project.SinglePostActivity"
+
+    >
+    <LinearLayout
+        android:id="@+id/linelayout"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="530dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/post_image"
+        android:scaleType="centerCrop"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#FFF"
+            android:textStyle="italic"
+            android:text="Title :"
+            android:textSize="20sp"
+            android:fontFamily="@font/arkham"
+
+
+            />
+        <TextView
+        android:id="@+id/post_title_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+            android:textColor="#F1C40F"
+            android:fontFamily="@font/arkham"
+            android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Post Title"
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#FFF"
+            android:textStyle="italic"
+            android:text="Description :"
+            android:textSize="20sp"
+            android:fontFamily="@font/arkham"
+
+
+            />
+        <TextView
+        android:id="@+id/post_desc_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+            android:textColor="#3498DB"
+        android:text="Post Description"/>
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF0000"
+            android:text="DELETE" />
+
+    </LinearLayout>
+</RelativeLayout>
